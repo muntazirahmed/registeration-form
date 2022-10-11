@@ -1,22 +1,11 @@
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
-import Forms from './Forms'
-import Datafetching from './Datafetching'
+import React from 'react';
+import Form from './Form';
+import "./App.css"
 
-
-export class App extends Component {
-  static propTypes = {}
-
-  render() {
-    return (
-      <div>
-        <h1>1</h1>
-        <Forms />
-        <h2>2</h2>
-        <Datafetching/>
-      </div>
-    )
-  }
+const App = () => {
+  return (
+    <div><Form/></div>
+  )
 }
 
 export default App
